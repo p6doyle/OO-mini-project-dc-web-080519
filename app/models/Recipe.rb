@@ -12,9 +12,13 @@ class Recipe
         @@all
     end
 
-    def most_popular
-        #What recipe is used by most users
-        #
+    def add_ingredients(ingredients_array)
+        ingredients_array.each{|ingredient|
+        RecipeIngredient.new(self, ingredient)}
+    end
+
+    def users
+        
     end
 
 end
