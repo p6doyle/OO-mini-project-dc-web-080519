@@ -11,7 +11,7 @@ We've provided you with a console that you can use to test your code. To enter a
 ### `Recipe`
 Build the following methods on the Recipe class
 
-- `Recipe.all`
+- #`Recipe.all`
 should return all of the recipe instances
 - `Recipe.most_popular`
 should return the recipe instance with the highest number of users (the recipe that has the most recipe cards)
@@ -33,7 +33,7 @@ should return all of the Allergy instances
 ### `User`
 Build the following methods on the User class
 
-- `User.all`
+- #`User.all`
 should return all of the user instances
 - `User#recipes`
 should return all of the recipes this user has recipe cards for
@@ -66,7 +66,7 @@ should return the recipe to which the entry belongs
 ### `Ingredient`
 Build the following methods on the Ingredient class
 
-- `Ingredient.all`
+- #`Ingredient.all`
 should return all of the ingredient instances
 - `Ingredient.most_common_allergen`
 should return the ingredient instance that the highest number of users are allergic to
