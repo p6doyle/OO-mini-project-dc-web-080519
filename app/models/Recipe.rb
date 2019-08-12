@@ -12,5 +12,10 @@ class Recipe
         @@all
     end
 
+    def most_popular
+        #What recipe is used by most users
+        #
+    end
+
 end
 
